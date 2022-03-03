@@ -1,628 +1,627 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "St. George",
-        "mins-to-wall-st": "No Access",
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": true,
-        "passangers-served-daily-weekday-q1-2022": 631,
-        "passangers-served-daily-avg-q1-2022": 273
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.07158374786377,
-          40.64333503356004
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Battery Park City/Vesey St.",
-        "mins-to-wall-st": "No Access",
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": true,
-        "passangers-served-daily-weekday-q1-2022": 310,
-        "passangers-served-daily-avg-q1-2022": 123
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.01742458343506,
-          40.7149804749271
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Midtown West",
-        "mins-to-wall-st": "No Access",
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": true,
-        "passangers-served-daily-weekday-q1-2022": 425,
-        "passangers-served-daily-avg-q1-2022": 178
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0037989616394,
-          40.76048823505063
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Rockaway",
-        "mins-to-wall-st": 57,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": true,
-        "soumdview-line": false,
-        "south-brooklyn-line": false ,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 820,
-        "passangers-served-daily-avg-q1-2022": 269
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.83100032806396,
-          40.58410470746387
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Bay Ridge",
-        "mins-to-wall-st": 63,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line" false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 364,
-        "passangers-served-daily-avg-q1-2022": 84
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.02643144130707,
-          40.646286013489636
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Sunset Park/BAT",
-        "mins-to-wall-st": 41,
-        "multi-line": true,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": true,
-        "soumdview-line": false,
-        "south-brooklyn-line": true,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 378,
-        "passangers-served-daily-avg-q1-2022": 135
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.01785373687744,
-          40.674014778295025
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Red Hook",
-        "mins-to-wall-st": 18,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 283,
-        "passangers-served-daily-avg-q1-2022": 92
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.01330471038818,
-          40.68086584018329
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Atlantic Ave/BBP Pier 6",
-        "mins-to-wall-st": 9,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": true,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 366,
-        "passangers-served-daily-avg-q1-2022": 100
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.00203943252562,
-          40.69236134878111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Pier 11 - Wall Street",
-        "mins-to-wall-st": 0,
-        "multi-line": true,
-        "astoria-line": true,
-        "east-river-line": true,
-        "les-line": true,
-        "rockaway-line": true,
-        "soumdview-line": true,
-        "south-brooklyn-line" true,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 4658,
-        "passangers-served-daily-avg-q1-2022": 1310
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0054726600647,
-          40.70245591008771
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Brooklyn Navy Yard",
-        "mins-to-wall-st": 10,
-        "multi-line": false,
-        "astoria-line": true,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 452,
-        "passangers-served-daily-avg-q1-2022": 172
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.97351145744324,
-          40.701593743002
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Colrears Hook",
-        "mins-to-wall-st": 14,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line" : true,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 161,
-        "passangers-served-daily-avg-q1-2022": 32
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.97921919822693,
-          40.71017018206016
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "South Williamsburg",
-        "mins-to-wall-st": 12,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": true,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line" false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 683,
-        "passangers-served-daily-avg-q1-2022": 212
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.97023916244507,
-          40.70859649433212
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "North Williamsburg",
-        "mins-to-wall-st": 20,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": true,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 1832,
-        "passangers-served-daily-avg-q1-2022": 527
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96481037139893,
-          40.72085157020638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Stuyvesant Cove",
-        "mins-to-wall-st": 9,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": true,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 328,
-        "passangers-served-daily-avg-q1-2022": 94
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.972932100296,
-          40.73199059069548
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Hunters Point South",
-        "mins-to-wall-st": 43,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": true,
-        "les-line": false,
-        "rockaway-line": false,
-        "south-brooklyn-line": false ,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 1020,
-        "passangers-served-daily-avg-q1-2022": 276
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96128058433533,
-          40.741831217515156
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Greenpoint",
-        "mins-to-wall-st": "N/A",
-        "multi-line": false,
-        "astoria-line": true,
-        "east-river-line": true,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 0,
-        "passangers-served-daily-avg-q1-2022": 0
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.96360874176025,
-          40.73136457840986
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Long Island City",
-        "mins-to-wall-st": 30,
-        "multi-line": false,
-        "astoria-line": true,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": ,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 1067,
-        "passangers-served-daily-avg-q1-2022": 311
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9576005935669,
-          40.74842740261896
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Roosevelt Island",
-        "mins-to-wall-st": 36,
-        "multi-line": false,
-        "astoria-line": true,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 693,
-        "passangers-served-daily-avg-q1-2022": 197
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9525580406189,
-          40.756814951767126
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Astoria",
-        "mins-to-wall-st": 44,
-        "multi-line": false,
-        "astoria-line": true,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 933,
-        "passangers-served-daily-avg-q1-2022": 276
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.93575668334961,
-          40.77192937403214
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "East 90th Street",
-        "mins-to-wall-st": 49,
-        "multi-line": true,
-        "astoria-line": true,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": true,
-        "south-brooklyn-line": false ,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 1478,
-        "passangers-served-daily-avg-q1-2022": 385
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.94227981567383,
-          40.77737297436132
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Soundview",
-        "mins-to-wall-st": 47,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": true,
-        "south-brooklyn-line" false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 823,
-        "passangers-served-daily-avg-q1-2022": 312
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.84886384010315,
-          40.80490100798263
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Throgs Neck",
-        "mins-to-wall-st": 56,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": true,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 0,
-        "passangers-served-daily-avg-q1-2022": 0
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.8379418849945,
-          40.807296682207685
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Governors Island",
-        "mins-to-wall-st": 44,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": true ,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 232,
-        "passangers-served-daily-avg-q1-2022": 0
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.01650190353392,
-          40.68661791010818
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "DUMBO/Fulton Ferry",
-        "mins-to-wall-st": 7,
-        "multi-line": true,
-        "astoria-line": false,
-        "east-river-line": true,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": true ,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 2293,
-        "passangers-served-daily-avg-q1-2022": 541
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.99569869041443,
-          40.703578337307555
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "Bay Ridge",
-        "mins-to-wall-st": 49,
-        "multi-line": false,
-        "astoria-line": false,
-        "east-river-line": false,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": false,
-        "south-brooklyn-line": true,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 364,
-        "passangers-served-daily-avg-q1-2022": 84
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0380561351776,
-          40.6398221797733
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stop-name": "East 34th Stret",
-        "mins-to-wall-st": 32,
-        "multi-line": true,
-        "astoria-line": false,
-        "east-river-line": true,
-        "les-line": false,
-        "rockaway-line": false,
-        "soumdview-line": true,
-        "south-brooklyn-line": false,
-        "st-george-line": false,
-        "passangers-served-daily-weekday-q1-2022": 3389,
-        "passangers-served-daily-avg-q1-2022": 1130
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.97076487541199,
-          40.74394060479145
-        ]
-      }
-    }
-  ]
+	"type": "FeatureCollection",
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "St. George",
+				"mins-to-wall-st": "No Access",
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": true,
+				"passangers-served-daily-weekday-q1-2022": 631,
+				"passangers-served-daily-avg-q1-2022": 273
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.07158374786377,
+					40.64333503356004
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Battery Park City/Vesey St.",
+				"mins-to-wall-st": "No Access",
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": true,
+				"passangers-served-daily-weekday-q1-2022": 310,
+				"passangers-served-daily-avg-q1-2022": 123
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.01742458343506,
+					40.7149804749271
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Midtown West",
+				"mins-to-wall-st": "No Access",
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": true,
+				"passangers-served-daily-weekday-q1-2022": 425,
+				"passangers-served-daily-avg-q1-2022": 178
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.0037989616394,
+					40.76048823505063
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Rockaway",
+				"mins-to-wall-st": 57,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": true,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 820,
+				"passangers-served-daily-avg-q1-2022": 269
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.83100032806396,
+					40.58410470746387
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Bay Ridge",
+				"mins-to-wall-st": 63,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 364,
+				"passangers-served-daily-avg-q1-2022": 84
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.02643144130707,
+					40.646286013489636
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Sunset Park/BAT",
+				"mins-to-wall-st": 41,
+				"multi-line": true,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": true,
+				"soumdview-line": false,
+				"south-brooklyn-line": true,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 378,
+				"passangers-served-daily-avg-q1-2022": 135
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.01785373687744,
+					40.674014778295025
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Red Hook",
+				"mins-to-wall-st": 18,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 283,
+				"passangers-served-daily-avg-q1-2022": 92
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.01330471038818,
+					40.68086584018329
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Atlantic Ave/BBP Pier 6",
+				"mins-to-wall-st": 9,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": true,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 366,
+				"passangers-served-daily-avg-q1-2022": 100
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.00203943252562,
+					40.69236134878111
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Pier 11 - Wall Street",
+				"mins-to-wall-st": 0,
+				"multi-line": true,
+				"astoria-line": true,
+				"east-river-line": true,
+				"les-line": true,
+				"rockaway-line": true,
+				"soumdview-line": true,
+				"south-brooklyn-line": true,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 4658,
+				"passangers-served-daily-avg-q1-2022": 1310
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.0054726600647,
+					40.70245591008771
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Brooklyn Navy Yard",
+				"mins-to-wall-st": 10,
+				"multi-line": false,
+				"astoria-line": true,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 452,
+				"passangers-served-daily-avg-q1-2022": 172
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.97351145744324,
+					40.701593743002
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Colrears Hook",
+				"mins-to-wall-st": 14,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": true,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 161,
+				"passangers-served-daily-avg-q1-2022": 32
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.97921919822693,
+					40.71017018206016
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "South Williamsburg",
+				"mins-to-wall-st": 12,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": true,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 683,
+				"passangers-served-daily-avg-q1-2022": 212
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.97023916244507,
+					40.70859649433212
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "North Williamsburg",
+				"mins-to-wall-st": 20,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": true,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 1832,
+				"passangers-served-daily-avg-q1-2022": 527
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.96481037139893,
+					40.72085157020638
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Stuyvesant Cove",
+				"mins-to-wall-st": 9,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": true,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 328,
+				"passangers-served-daily-avg-q1-2022": 94
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.972932100296,
+					40.73199059069548
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Hunters Point South",
+				"mins-to-wall-st": 43,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": true,
+				"les-line": false,
+				"rockaway-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 1020,
+				"passangers-served-daily-avg-q1-2022": 276
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.96128058433533,
+					40.741831217515156
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Greenpoint",
+				"mins-to-wall-st": "N/A",
+				"multi-line": false,
+				"astoria-line": true,
+				"east-river-line": true,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 0,
+				"passangers-served-daily-avg-q1-2022": 0
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.96360874176025,
+					40.73136457840986
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Long Island City",
+				"mins-to-wall-st": 30,
+				"multi-line": false,
+				"astoria-line": true,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 1067,
+				"passangers-served-daily-avg-q1-2022": 311
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.9576005935669,
+					40.74842740261896
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Roosevelt Island",
+				"mins-to-wall-st": 36,
+				"multi-line": false,
+				"astoria-line": true,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 693,
+				"passangers-served-daily-avg-q1-2022": 197
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.9525580406189,
+					40.756814951767126
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Astoria",
+				"mins-to-wall-st": 44,
+				"multi-line": false,
+				"astoria-line": true,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 933,
+				"passangers-served-daily-avg-q1-2022": 276
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.93575668334961,
+					40.77192937403214
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "East 90th Street",
+				"mins-to-wall-st": 49,
+				"multi-line": true,
+				"astoria-line": true,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": true,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 1478,
+				"passangers-served-daily-avg-q1-2022": 385
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.94227981567383,
+					40.77737297436132
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Soundview",
+				"mins-to-wall-st": 47,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": true,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 823,
+				"passangers-served-daily-avg-q1-2022": 312
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.84886384010315,
+					40.80490100798263
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Throgs Neck",
+				"mins-to-wall-st": 56,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": true,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 0,
+				"passangers-served-daily-avg-q1-2022": 0
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.8379418849945,
+					40.807296682207685
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Governors Island",
+				"mins-to-wall-st": 44,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": true,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 232,
+				"passangers-served-daily-avg-q1-2022": 0
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.01650190353392,
+					40.68661791010818
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "DUMBO/Fulton Ferry",
+				"mins-to-wall-st": 7,
+				"multi-line": true,
+				"astoria-line": false,
+				"east-river-line": true,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": true,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 2293,
+				"passangers-served-daily-avg-q1-2022": 541
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.99569869041443,
+					40.703578337307555
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "Bay Ridge",
+				"mins-to-wall-st": 49,
+				"multi-line": false,
+				"astoria-line": false,
+				"east-river-line": false,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": false,
+				"south-brooklyn-line": true,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 364,
+				"passangers-served-daily-avg-q1-2022": 84
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-74.0380561351776,
+					40.6398221797733
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"stop-name": "East 34th Stret",
+				"mins-to-wall-st": 32,
+				"multi-line": true,
+				"astoria-line": false,
+				"east-river-line": true,
+				"les-line": false,
+				"rockaway-line": false,
+				"soumdview-line": true,
+				"south-brooklyn-line": false,
+				"st-george-line": false,
+				"passangers-served-daily-weekday-q1-2022": 3389,
+				"passangers-served-daily-avg-q1-2022": 1130
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-73.97076487541199,
+					40.74394060479145
+				]
+			}
+		}
+	]
 }
