@@ -10,22 +10,41 @@
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="css/styles.css">
 
-</head>
+  </head>
 
-<body>
-  <div class='container'>
-    <div class='sidebar'>
-      <!-- <button class="button-10" id='fly-to-midtown' role="button">Fly to Midtown Manhattan</button>
-      <button class="button-10" id='fly-to-jfk' role="button">Fly to JFK Airport</button>
-      <button class="button-10" id='toggle-population' role="button">Toggle Population Layer</button>
-      <div id='sidebar-content-area'> -->
+  <body>
+    <div class='container'>
+      <div class='sidebar'>
+        <div>
+          <button id='fly-to-wallst' role="button">Fly to Pier 11</button>
+        </div>
+        <div>
+          <nav class='menu-ui'>
+            <a href='#' class='active' data-filter='all'>All Stops</a>
+            <a href='#' data-filter='rentals'>Astoria</a>
+            <a href='#' data-filter='tackleshop'>East River</a>
+            <a href='#' data-filter='fuel'>Rockaway</a>
+            <a href='#' data-filter='fuel'>Soundview</a>
+            <a href='#' data-filter='fuel'>South Brooklyn</a>
+            <a href='#' data-filter='fuel'>St. George</a>
+          </nav>
+        </div>
+      </div>
+      <div id='mapContainer'>
+      <!-- this is where mapboxGL will insert the map -->
       </div>
     </div>
-    <div id='mapContainer'>
-    <!-- this is where mapboxGL will insert the map -->
+    <!-- your content here... -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+  </html>
     </div>
-  </div>
-  Hello, World
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
   <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -34,4 +53,4 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
-</html>
+</html> -->
