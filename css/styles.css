@@ -1,12 +1,20 @@
-#mapContainer {
-  backgroundColor: #ccc;
-  flex-grow: 1
-}
-
 html, body {
   margin: 0;
   height: 100%;
   font-family: sans-serif;
+}
+
+#parent-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content-area {
+  display: flex;
+  flex-grow: 1;
+  min-height: 0;
 }
 
 .container {
@@ -17,13 +25,31 @@ html, body {
 .sidebar {
   width: 400px;
   height: 100%;
-  padding: 15px;
-  box-sizing: border-box;
+  padding: 25px 15px;
+  background-color: #313640;
+  color: #FFF;
+  text-align: left;
+  border-right: 1px solid #5e5e5e;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-top {
+  flex-grow: 1;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+.sidebar-bottom {
+  padding-top: 15px;
 }
 
 .sidebar h3 {
   font-size: 30px;
-  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar h5 {
+  margin-bottom: 20px;
 }
 
 .button-69 {
@@ -35,39 +61,16 @@ html, body {
   color: white;
 }
 
+#mapContainer {
+  backgroundColor: #ccc;
+  flex-grow: 1
+}
 
-.menu-ui {
-  background:#fff;
-  position:absolute;
-  top:50px;left:10px;
-  z-index:1;
-  border-radius:3px;
-  width:120px;
-  border:1px solid rgba(0,0,0,0.4);
-  }
-  .menu-ui a {
-    font-size:13px;
-    color:#404040;
-    display:block;
-    margin:0;padding:0;
-    padding:10px;
-    text-decoration:none;
-    border-bottom:1px solid rgba(0,0,0,0.25);
-    text-align:center;
-    }
-    .menu-ui a:first-child {
-      border-radius:3px 3px 0 0;
-      }
-    .menu-ui a:last-child {
-      border:none;
-      border-radius:0 0 3px 3px;
-      }
-    .menu-ui a:hover {
-      background:#f8f8f8;
-      color:#404040;
-      }
-    .menu-ui a.active,
-    .menu-ui a.active:hover {
-      background:#3887BE;
-      color:#FFF;
-      }
+.reset {
+  margin-bottom: 25px;
+}
+
+.reset:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

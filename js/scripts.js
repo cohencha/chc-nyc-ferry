@@ -12,13 +12,43 @@ var map = new mapboxgl.Map({
   zoom: 10
 });
 
-  $('#fly-to-wallst').on('click', function() {
-    // when this is clicked, let's fly the map to Pier 11
-    map.flyTo({
-      center: [-74.006567, 40.7035214],
-      zoom: 16
-    })
+
+
+// add the mapbox geocoder plugin
+map.addControl(
+  new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken,
+    mapboxgl: mapboxgl
   })
+);
+
+// add navigation controls to the map
+map.addControl(new mapboxgl.NavigationControl());
+
+// listen for clicks on the neighborhood flyto buttons
+$('.flyto').on('click', function() {
+  if ($(this).hasClass('flyto-the-village')) {
+    newCenter = [-74.001745,40.729778]
+  }
+
+  if ($(this).hasClass('flyto-fidi')) {
+    newCenter = [-74.009485,40.707873]
+  }
+
+  if ($(this).hasClass('flyto-pier-11')) {
+    newCenter = [-74.006567, 40.7035214]
+  }
+
+  map.flyTo({
+    center: newCenter,
+    zoom: 12
+  })
+})
+
+// listen for click on the 'Back to City View' button
+$('.reset').on('click', function() {
+  map.fitBounds(nycBounds)
+})
 
   nycferrystops.features.forEach(function(nycferrystop) {
     var mapMarker = new mapboxgl.Marker({
@@ -27,17 +57,5 @@ var map = new mapboxgl.Map({
     .setLngLat(nycferrystop.geometry.coordinates)
     .addTo(map);
   })
+
 })
-//
-// $('.menu-ui a').on('click', function() {
-//     // For each filter link, get the 'data-filter' attribute value.
-//     var filter = $(this).data('filter');
-//     $(this).addClass('active').siblings().removeClass('active');
-//     markers.setFilter(function(f) {
-//         // If the data-filter attribute is set to "all", return
-//         // all (true). Otherwise, filter on markers that have
-//         // a value set to true based on the filter name.
-//         return (filter === 'all') ? true : f.properties[filter] === true;
-//     });
-//     return false;
-// })
