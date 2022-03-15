@@ -17,11 +17,6 @@ html, body {
   min-height: 0;
 }
 
-.container {
-  display: flex;
-  height: 100%;
-}
-
 .sidebar {
   width: 400px;
   height: 100%;
