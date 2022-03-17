@@ -46,10 +46,11 @@ $('.flyto').on('click', function() {
   })
 })
 
-// listen for click on the 'Back to City View' button
-$('.reset').on('click', function() {
-  map.fitBounds(nycBounds)
-})
+  // listen for click on the 'Back to City View' button
+  $('.reset').on('click', function() {
+  map.fitBounds([[-74.180626, 40.864447], [-73.576473,40.590744]])
+  })
+
 
   nycferrystops.features.forEach(function(nycferrystop) {
     var mapMarker = new mapboxgl.Marker({
