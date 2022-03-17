@@ -56,7 +56,11 @@ $('.reset').on('click', function() {
       color: '#2596be'
     })
     .setLngLat(nycferrystop.geometry.coordinates)
-    .setPopup()
+    .setPopup(
+      new mapboxgl.Popup()
+        .setHTML(`
+          <p><h2>${nycferrystop.properties.stopname}</h2></p>
+        `))
     .addTo(map);
   })
 

@@ -3,9 +3,9 @@
 	"features": [{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "St. George",
-				"mins-to-wall-st": "No Access",
-				"multi-line": false,
+				"stopname": "St. George",
+				"minstowallst": "No Access",
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -27,9 +27,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Battery Park City/Vesey St.",
-				"mins-to-wall-st": "No Access",
-				"multi-line": false,
+				"stopname": "Battery Park City/Vesey St.",
+				"minstowallst": "No Access",
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -51,9 +51,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Midtown West",
-				"mins-to-wall-st": "No Access",
-				"multi-line": false,
+				"stopname": "Midtown West",
+				"minstowallst": "No Access",
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -75,9 +75,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Rockaway",
-				"mins-to-wall-st": 57,
-				"multi-line": false,
+				"stopname": "Rockaway",
+				"minstowallst": 57,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -99,9 +99,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Bay Ridge",
-				"mins-to-wall-st": 63,
-				"multi-line": false,
+				"stopname": "Bay Ridge",
+				"minstowallst": 63,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -123,9 +123,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Sunset Park/BAT",
-				"mins-to-wall-st": 41,
-				"multi-line": true,
+				"stopname": "Sunset Park/BAT",
+				"minstowallst": 41,
+				"multiline": true,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -147,9 +147,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Red Hook",
-				"mins-to-wall-st": 18,
-				"multi-line": false,
+				"stopname": "Red Hook",
+				"minstowallst": 18,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -171,9 +171,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Atlantic Ave/BBP Pier 6",
-				"mins-to-wall-st": 9,
-				"multi-line": false,
+				"stopname": "Atlantic Ave/BBP Pier 6",
+				"minstowallst": 9,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -195,9 +195,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Pier 11 - Wall Street",
-				"mins-to-wall-st": 0,
-				"multi-line": true,
+				"stopname": "Pier 11 - Wall Street",
+				"minstowallst": 0,
+				"multiline": true,
 				"astoria-line": true,
 				"east-river-line": true,
 				"les-line": true,
@@ -219,9 +219,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Brooklyn Navy Yard",
-				"mins-to-wall-st": 10,
-				"multi-line": false,
+				"stopname": "Brooklyn Navy Yard",
+				"minstowallst": 10,
+				"multiline": false,
 				"astoria-line": true,
 				"east-river-line": false,
 				"les-line": false,
@@ -243,9 +243,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Colrears Hook",
-				"mins-to-wall-st": 14,
-				"multi-line": false,
+				"stopname": "Colrears Hook",
+				"minstowallst": 14,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -267,9 +267,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "South Williamsburg",
-				"mins-to-wall-st": 12,
-				"multi-line": false,
+				"stopname": "South Williamsburg",
+				"minstowallst": 12,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": true,
 				"les-line": false,
@@ -291,9 +291,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "North Williamsburg",
-				"mins-to-wall-st": 20,
-				"multi-line": false,
+				"stopname": "North Williamsburg",
+				"minstowallst": 20,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": true,
 				"les-line": false,
@@ -315,9 +315,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Stuyvesant Cove",
-				"mins-to-wall-st": 9,
-				"multi-line": false,
+				"stopname": "Stuyvesant Cove",
+				"minstowallst": 9,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -339,9 +339,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Hunters Point South",
-				"mins-to-wall-st": 43,
-				"multi-line": false,
+				"stopname": "Hunters Point South",
+				"minstowallst": 43,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": true,
 				"les-line": false,
@@ -362,9 +362,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Greenpoint",
-				"mins-to-wall-st": "N/A",
-				"multi-line": false,
+				"stopname": "Greenpoint",
+				"minstowallst": "N/A",
+				"multiline": false,
 				"astoria-line": true,
 				"east-river-line": true,
 				"les-line": false,
@@ -386,9 +386,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Long Island City",
-				"mins-to-wall-st": 30,
-				"multi-line": false,
+				"stopname": "Long Island City",
+				"minstowallst": 30,
+				"multiline": false,
 				"astoria-line": true,
 				"east-river-line": false,
 				"les-line": false,
@@ -410,9 +410,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Roosevelt Island",
-				"mins-to-wall-st": 36,
-				"multi-line": false,
+				"stopname": "Roosevelt Island",
+				"minstowallst": 36,
+				"multiline": false,
 				"astoria-line": true,
 				"east-river-line": false,
 				"les-line": false,
@@ -434,9 +434,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Astoria",
-				"mins-to-wall-st": 44,
-				"multi-line": false,
+				"stopname": "Astoria",
+				"minstowallst": 44,
+				"multiline": false,
 				"astoria-line": true,
 				"east-river-line": false,
 				"les-line": false,
@@ -458,9 +458,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "East 90th Street",
-				"mins-to-wall-st": 49,
-				"multi-line": true,
+				"stopname": "East 90th Street",
+				"minstowallst": 49,
+				"multiline": true,
 				"astoria-line": true,
 				"east-river-line": false,
 				"les-line": false,
@@ -482,9 +482,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Soundview",
-				"mins-to-wall-st": 47,
-				"multi-line": false,
+				"stopname": "Soundview",
+				"minstowallst": 47,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -506,9 +506,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Throgs Neck",
-				"mins-to-wall-st": 56,
-				"multi-line": false,
+				"stopname": "Throgs Neck",
+				"minstowallst": 56,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -530,9 +530,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Governors Island",
-				"mins-to-wall-st": 44,
-				"multi-line": false,
+				"stopname": "Governors Island",
+				"minstowallst": 44,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -554,9 +554,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "DUMBO/Fulton Ferry",
-				"mins-to-wall-st": 7,
-				"multi-line": true,
+				"stopname": "DUMBO/Fulton Ferry",
+				"minstowallst": 7,
+				"multiline": true,
 				"astoria-line": false,
 				"east-river-line": true,
 				"les-line": false,
@@ -578,9 +578,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "Bay Ridge",
-				"mins-to-wall-st": 49,
-				"multi-line": false,
+				"stopname": "Bay Ridge",
+				"minstowallst": 49,
+				"multiline": false,
 				"astoria-line": false,
 				"east-river-line": false,
 				"les-line": false,
@@ -602,9 +602,9 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"stop-name": "East 34th Stret",
-				"mins-to-wall-st": 32,
-				"multi-line": true,
+				"stopname": "East 34th Stret",
+				"minstowallst": 32,
+				"multiline": true,
 				"astoria-line": false,
 				"east-river-line": true,
 				"les-line": false,
