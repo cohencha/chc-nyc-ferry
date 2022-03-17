@@ -3,13 +3,14 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY29oZW5jaGEiLCJhIjoiY2t6dW12Zm1mMDhnbzJvbXl1c
 $.getJSON('./data/ferry-stops-updates.geojson', function(nycferrystops) {
   console.log(nycferrystops)
 
-var nycCenter = [-73.940820, 40.7724818]
+var nycCenter = [-73.9103835, 40.7152049]
 
 var map = new mapboxgl.Map({
   container: 'mapContainer', // HTML container id
   style: 'mapbox://styles/mapbox/streets-v11', // style URL
   center: nycCenter, // starting position as [lng, lat]
-  zoom: 10
+  zoom: 10.25,
+  minZoom: 10.25,
 });
 
 
@@ -55,6 +56,7 @@ $('.reset').on('click', function() {
       color: '#2596be'
     })
     .setLngLat(nycferrystop.geometry.coordinates)
+    .setPopup()
     .addTo(map);
   })
 
