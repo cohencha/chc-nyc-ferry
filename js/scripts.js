@@ -13,8 +13,6 @@ var map = new mapboxgl.Map({
   minZoom: 10.25,
 });
 
-
-
 // add the mapbox geocoder plugin
 map.addControl(
   new MapboxGeocoder({
@@ -46,12 +44,28 @@ $('.flyto').on('click', function() {
   })
 })
 
-  // listen for click on the 'Back to City View' button
+// add layers for 15-min walking distances
+map.on('load', function() {
+ map.addSource('walklayers', {
+   type: 'geojson',
+   data: './data/walking-layers.geojson'
+ })
+
+ map.addLayer({
+  id: 'walking-layer',
+  type: 'fill',
+  source: 'walklayers',
+  paint: {
+    'fill-opacity': 0.6,
+    'fill-color': 'gray',
+  })
+
+// listen for click on the 'Back to City View' button
   $('.reset').on('click', function() {
   map.fitBounds([[-74.180626, 40.864447], [-73.576473,40.590744]])
   })
 
-
+// markers for ferry piers
   nycferrystops.features.forEach(function(nycferrystop) {
     var mapMarker = new mapboxgl.Marker({
       color: '#2596be'
