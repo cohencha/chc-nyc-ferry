@@ -84,6 +84,6 @@ $('.flyto').on('click', function() {
       'fill-opacity': 0.6,
       'fill-color': 'gray'
     }
-    })
+  });
 
 })
