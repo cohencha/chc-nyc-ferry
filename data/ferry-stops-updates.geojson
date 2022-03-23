@@ -13,8 +13,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": true,
-				"passangers-served-daily-weekday-q1-2022": 631,
-				"passangers-served-daily-avg-q1-2022": 273
+				"weekendq1": 631,
+				"weekdayq1": 273
 			},
 			"geometry": {
 				"type": "Point",
@@ -37,8 +37,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": true,
-				"passangers-served-daily-weekday-q1-2022": 310,
-				"passangers-served-daily-avg-q1-2022": 123
+				"weekendq1": 310,
+				"weekdayq1": 123
 			},
 			"geometry": {
 				"type": "Point",
@@ -61,8 +61,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": true,
-				"passangers-served-daily-weekday-q1-2022": 425,
-				"passangers-served-daily-avg-q1-2022": 178
+				"weekendq1": 425,
+				"weekdayq1": 178
 			},
 			"geometry": {
 				"type": "Point",
@@ -85,8 +85,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 820,
-				"passangers-served-daily-avg-q1-2022": 269
+				"weekendq1": 820,
+				"weekdayq1": 269
 			},
 			"geometry": {
 				"type": "Point",
@@ -109,8 +109,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 364,
-				"passangers-served-daily-avg-q1-2022": 84
+				"weekendq1": 364,
+				"weekdayq1": 84
 			},
 			"geometry": {
 				"type": "Point",
@@ -133,8 +133,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": true,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 378,
-				"passangers-served-daily-avg-q1-2022": 135
+				"weekendq1": 378,
+				"weekdayq1": 135
 			},
 			"geometry": {
 				"type": "Point",
@@ -157,8 +157,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 283,
-				"passangers-served-daily-avg-q1-2022": 92
+				"weekendq1": 283,
+				"weekdayq1": 92
 			},
 			"geometry": {
 				"type": "Point",
@@ -181,8 +181,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": true,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 366,
-				"passangers-served-daily-avg-q1-2022": 100
+				"weekendq1": 366,
+				"weekdayq1": 100
 			},
 			"geometry": {
 				"type": "Point",
@@ -205,8 +205,8 @@
 				"soumdview-line": true,
 				"south-brooklyn-line": true,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 4658,
-				"passangers-served-daily-avg-q1-2022": 1310
+				"weekendq1": 4658,
+				"weekdayq1": 1310
 			},
 			"geometry": {
 				"type": "Point",
@@ -229,8 +229,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 452,
-				"passangers-served-daily-avg-q1-2022": 172
+				"weekendq1": 452,
+				"weekdayq1": 172
 			},
 			"geometry": {
 				"type": "Point",
@@ -253,8 +253,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": true,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 161,
-				"passangers-served-daily-avg-q1-2022": 32
+				"weekendq1": 161,
+				"weekdayq1": 32
 			},
 			"geometry": {
 				"type": "Point",
@@ -277,8 +277,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 683,
-				"passangers-served-daily-avg-q1-2022": 212
+				"weekendq1": 683,
+				"weekdayq1": 212
 			},
 			"geometry": {
 				"type": "Point",
@@ -301,8 +301,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 1832,
-				"passangers-served-daily-avg-q1-2022": 527
+				"weekendq1": 1832,
+				"weekdayq1": 527
 			},
 			"geometry": {
 				"type": "Point",
@@ -325,8 +325,8 @@
 				"soumdview-line": true,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 328,
-				"passangers-served-daily-avg-q1-2022": 94
+				"weekendq1": 328,
+				"weekdayq1": 94
 			},
 			"geometry": {
 				"type": "Point",
@@ -348,8 +348,8 @@
 				"rockaway-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 1020,
-				"passangers-served-daily-avg-q1-2022": 276
+				"weekendq1": 1020,
+				"weekdayq1": 276
 			},
 			"geometry": {
 				"type": "Point",
@@ -372,8 +372,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 0,
-				"passangers-served-daily-avg-q1-2022": 0
+				"weekendq1": 0,
+				"weekdayq1": 0
 			},
 			"geometry": {
 				"type": "Point",
@@ -396,8 +396,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 1067,
-				"passangers-served-daily-avg-q1-2022": 311
+				"weekendq1": 1067,
+				"weekdayq1": 311
 			},
 			"geometry": {
 				"type": "Point",
@@ -420,8 +420,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 693,
-				"passangers-served-daily-avg-q1-2022": 197
+				"weekendq1": 693,
+				"weekdayq1": 197
 			},
 			"geometry": {
 				"type": "Point",
@@ -444,8 +444,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 933,
-				"passangers-served-daily-avg-q1-2022": 276
+				"weekendq1": 933,
+				"weekdayq1": 276
 			},
 			"geometry": {
 				"type": "Point",
@@ -468,8 +468,8 @@
 				"soumdview-line": true,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 1478,
-				"passangers-served-daily-avg-q1-2022": 385
+				"weekendq1": 1478,
+				"weekdayq1": 385
 			},
 			"geometry": {
 				"type": "Point",
@@ -492,8 +492,8 @@
 				"soumdview-line": true,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 823,
-				"passangers-served-daily-avg-q1-2022": 312
+				"weekendq1": 823,
+				"weekdayq1": 312
 			},
 			"geometry": {
 				"type": "Point",
@@ -516,8 +516,8 @@
 				"soumdview-line": true,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 0,
-				"passangers-served-daily-avg-q1-2022": 0
+				"weekendq1": 0,
+				"weekdayq1": 0
 			},
 			"geometry": {
 				"type": "Point",
@@ -540,8 +540,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": true,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 232,
-				"passangers-served-daily-avg-q1-2022": 0
+				"weekendq1": 232,
+				"weekdayq1": 0
 			},
 			"geometry": {
 				"type": "Point",
@@ -564,8 +564,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": true,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 2293,
-				"passangers-served-daily-avg-q1-2022": 541
+				"weekendq1": 2293,
+				"weekdayq1": 541
 			},
 			"geometry": {
 				"type": "Point",
@@ -588,8 +588,8 @@
 				"soumdview-line": false,
 				"south-brooklyn-line": true,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 364,
-				"passangers-served-daily-avg-q1-2022": 84
+				"weekendq1": 364,
+				"weekdayq1": 84
 			},
 			"geometry": {
 				"type": "Point",
@@ -612,8 +612,8 @@
 				"soumdview-line": true,
 				"south-brooklyn-line": false,
 				"st-george-line": false,
-				"passangers-served-daily-weekday-q1-2022": 3389,
-				"passangers-served-daily-avg-q1-2022": 1130
+				"weekendq1": 3389,
+				"weekdayq1": 1130
 			},
 			"geometry": {
 				"type": "Point",

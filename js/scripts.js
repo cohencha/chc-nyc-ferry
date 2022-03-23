@@ -74,7 +74,9 @@ map.on('load', function() {
     .setPopup(
       new mapboxgl.Popup()
         .setHTML(`
-          <p><h2>${nycferrystop.properties.stopname}</h2></p>
+          <p><h3>${nycferrystop.properties.stopname}</h3></p>
+          <p><h4>Weekend Riders Served:${nycferrystop.properties.weekendq1}</h4></p>
+          <p><h4>Weekday Riders Served:${nycferrystop.properties.weekdayq1}</h4></p>
         `))
     .addTo(map);
   })
