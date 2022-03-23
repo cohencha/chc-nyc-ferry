@@ -44,22 +44,6 @@ $('.flyto').on('click', function() {
   })
 })
 
-// add layers for 15-min walking distances
-map.on('load', function() {
- map.addSource('walklayers', {
-   type: 'geojson',
-   data: './data/walking-layers.geojson'
- })
-
- map.addLayer({
-  id: 'walking-layer',
-  type: 'fill',
-  source: 'walklayers',
-  paint: {
-    'fill-opacity': 0.6,
-    'fill-color': 'gray',
-  })
-
 // listen for click on the 'Back to City View' button
   $('.reset').on('click', function() {
   map.fitBounds([[-74.180626, 40.864447], [-73.576473,40.590744]])
@@ -74,11 +58,32 @@ map.on('load', function() {
     .setPopup(
       new mapboxgl.Popup()
         .setHTML(`
-          <p><h3>${nycferrystop.properties.stopname}</h3></p>
-          <p><h4>Weekend Riders Served:${nycferrystop.properties.weekendq1}</h4></p>
-          <p><h4>Weekday Riders Served:${nycferrystop.properties.weekdayq1}</h4></p>
+          <p><h4>${nycferrystop.properties.stopname}</h4></p>
+          <p><h5>Weekend Riders Served: ${nycferrystop.properties.weekendq1}</h5></p>
+          <p><h5>Weekday Riders Served: ${nycferrystop.properties.weekdayq1}</h5></p>
         `))
     .addTo(map);
   })
+
+  // add layers for 15-min walking distances
+  $.getJSON('./data/walking-layers.geojson', function(walkinglayers) {
+    console.log(walkinglayers)
+
+  map.on('load', function() {
+   map.addSource('walklayers', {
+     type: 'geojson',
+     data: 'walkinglayers'
+   })
+
+   map.addLayer({
+    id: 'walkingshapes',
+    type: 'fill',
+    source: 'walklayers',
+    visibility: 'visible',
+    paint: {
+      'fill-opacity': 0.6,
+      'fill-color': 'gray'
+    }
+    })
 
 })
