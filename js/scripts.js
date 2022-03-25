@@ -24,25 +24,25 @@ map.addControl(
 // add navigation controls to the map
 map.addControl(new mapboxgl.NavigationControl());
 
-// listen for clicks on the neighborhood flyto buttons
-$('.flyto').on('click', function() {
-  if ($(this).hasClass('flyto-the-village')) {
-    newCenter = [-74.001745,40.729778]
-  }
+    // listen for clicks on the neighborhood flyto buttons
+  $('.flyto').on('click', function() {
+    if ($(this).hasClass('flyto-bny')) {
+      newCenter = [-73.973365, 40.701408]
+    }
 
-  if ($(this).hasClass('flyto-fidi')) {
-    newCenter = [-74.009485,40.707873]
-  }
+    if ($(this).hasClass('flyto-soundview')) {
+      newCenter = [-73.8492237, 40.8047218]
+    }
 
-  if ($(this).hasClass('flyto-pier-11')) {
-    newCenter = [-74.006567, 40.7035214]
-  }
+    if ($(this).hasClass('flyto-pier-11')) {
+      newCenter = [-74.006567, 40.7035214]
+    }
 
-  map.flyTo({
-    center: newCenter,
-    zoom: 12
-  })
-})
+    map.flyTo({
+      center: newCenter,
+      zoom: 15
+    })
+  });
 
 // listen for click on the 'Back to City View' button
   $('.reset').on('click', function() {
@@ -66,24 +66,28 @@ $('.flyto').on('click', function() {
   })
 
   // add layers for 15-min walking distances
-  $.getJSON('./data/walking-layers.geojson', function(walkinglayers) {
-    console.log(walkinglayers)
-
-  map.on('load', function() {
    map.addSource('walklayers', {
      type: 'geojson',
-     data: 'walkinglayers'
-   })
+     data: './data/walking-layers.geojson'
+   });
 
    map.addLayer({
     id: 'walkingshapes',
     type: 'fill',
     source: 'walklayers',
-    visibility: 'visible',
     paint: {
-      'fill-opacity': 0.6,
-      'fill-color': 'gray'
-    }
+      "fill-color": "#98f0fa",
+      "fill-opacity": 0.5,
+    },
+    layout: {
+      visibility: "none",
+    },
   });
+
+  // Buttons to toggle the visibility of the layers
+    $('#layers-button').on('click', function() {
+      // when this is clicked, let's fly the map to Midtown Manhattan
+      map.setLayoutProperty('walkingshapes', 'visibility', 'visible');
+    });
 
 })
