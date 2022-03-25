@@ -86,7 +86,7 @@ map.addControl(new mapboxgl.NavigationControl());
 
   // Buttons to toggle the visibility of the layers
     $('#layers-button').on('click', function() {
-      // when this is clicked, let's fly the map to Midtown Manhattan
+      // when this is clicked, open walking layers
       map.setLayoutProperty('walkingshapes', 'visibility', 'visible');
     });
 
