@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>NYC Ferry Neighborhhods</title>
+  <title>NYC Ferry Surroundings</title>
 
   <!-- add a favicon which will appear in browser tabs -->
   <link rel="shortcut icon" href="/ferry-icon.png">
@@ -29,7 +29,7 @@
         <div class="container-fluid">
 
           <!-- Navbar brand -->
-          <a class="navbar-brand" href="#"><i class="fa-solid fa-ferry"></i> NYC Ferry & Their 15 Minute Surroundings</a>
+          <a class="navbar-brand" href="#"><i class="fa-solid fa-ferry"></i> 15-Minute Surrounding the NYC Ferry</a>
 
           <!-- Toggle button -->
           <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,6 +47,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">About</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#methodology">Methodology</a>
+              </li>
               <li class="nav-item me-3 me-lg-0">
                 <a class="nav-link" href="https://github.com/cohencha/chc-nyc-ferry"><i class="fab fa-github"></i></a>
               </li>
@@ -60,10 +63,10 @@
       <div class='content-area'>
         <div class='sidebar'>
           <div class='sidebar-top'>
-            <h3>Where can you get to in 15 minutes walking from the NYC Ferry?</h3>
-            <p>Using the Travel Time Application, we can find out!</p>
-            <p>Click on a station below to see:</p>
-            <h6>Jump to a Neighborhood</h6>
+            <h3>Where can you go within 15-Minutes from a NYC Ferry Stop?</h3>
+            <p>This page will show you how far you can walk in 15-minutes, see if your address is within 15-minutes in different neighborhoods, and some information on ridership information regarding each NYC Ferry stop.</p>
+            <p>Use the following panels to see where you can go! </p>
+            <h6>Jump to a Neighborhood or Station</h6>
             <div class="btn-group nabe-buttons" role="group" aria-label="Basic outlined example">
               <button type="button" class="btn btn-outline-primary flyto flyto-bny">Brooklyn Navy Yard</button>
               <button type="button" class="btn btn-outline-primary flyto flyto-soundview">Soundview</button>
@@ -81,7 +84,7 @@
         </div>
       </div>
 
-      <!-- Modal -->
+      <!-- About Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -90,12 +93,33 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p>Here we can add plenty of info about the data, methodology, design inspiration, the issue at hand, or anything else.</p>
-              <p>You could also show this modal when the page first loads, as a splash screen of sorts.</p>
+              <p>This web map is designed to continue the discussion of the concept of the 15-Minute City and the current operations of the NYC Ferry. Last year, I wrote and mapped out several neighborhoods across New York City and if they could become viable 15-minute cities and found mixed results.</p>
+              <p>This map allows us to see how far one can walk in 15 minutes from any NYC Ferry Stop (note: the Coney Island Ferry is not included, as it will not be in operation until the Summer of 2022) using the TravelTime application. The NYC Ferry does allow residents and tourists alike with new transit options.</p>
+              <p>However, it seems that rider counts have been low in comparison to the NYC MTA system. This map will allow you to see average weekday and weekend rider counts from January to March of 2022 by stop. You can also enter in an address to see if you are within a 15-minute radius of a ferry stop.  </p>
+              <p>A special thanks to Chris Whong, for his guidance and wisdom on this project.</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Methodology Modal -->
+    <div class="modal fade" id="methodology" tabindex="-1" aria-labelledby="methodLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="methodlLabel">Methodology</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>By using the TravelTime application, I have created layers to show how far one can walk in fifteen minutes from any current operational NYC Ferry station. All data reflects the walking distance on a weekday at noon, at average walking speeds (3 miles per hour). The Greenpoint Ferry station has been closed since the Summer of 2021 for construction and issues with the landowner. This map was created using HTML, JavaSctript, and CSS, and all code can be accessed via GitHub on the Home page.</p>
+            <p>This project, submitted in March of 2022, is open to new ideas and other additional data to be shown, if you have any ideas or suggestions, please reach out to me via Twitter, also linked on the Home page. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
