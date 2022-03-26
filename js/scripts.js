@@ -58,17 +58,18 @@ map.addControl(new mapboxgl.NavigationControl());
     .setPopup(
       new mapboxgl.Popup()
         .setHTML(`
-          <p><h4>${nycferrystop.properties.stopname}</h4></p>
-          <p><h5>Weekend Riders Served: ${nycferrystop.properties.weekendq1}</h5></p>
-          <p><h5>Weekday Riders Served: ${nycferrystop.properties.weekdayq1}</h5></p>
+          <p><h5><em>${nycferrystop.properties.stopname}</em></h5></p>
+          <p><h6>Weekend Riders Served: ${nycferrystop.properties.weekendq1}</h6></p>
+          <p><h6>Weekday Riders Served: ${nycferrystop.properties.weekdayq1}</h6></p>
         `))
     .addTo(map);
   })
 
   // add layers for 15-min walking distances
+
    map.addSource('walklayers', {
-     type: 'geojson',
-     data: './data/walking-layers.geojson'
+     type: "geojson",
+     data: "./data/walking-layers.geojson"
    });
 
    map.addLayer({
