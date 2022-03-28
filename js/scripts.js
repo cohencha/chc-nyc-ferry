@@ -22,24 +22,24 @@ map.addControl(
 );
 
   // add layers for 15-min walking distances
-// map.on('load', function() {
-//    map.addSource('walklayers', {
-//      type: 'geojson',
-//      data: './data/walking-layers.geojson'
-//    })
-//
-//    map.addLayer({
-//     id: 'walkingshapes',
-//     type: 'fill',
-//     source: 'walklayers',
-//     layout: {
-//       'visibility': 'visible',
-//     },
-//     paint: {
-//       'fill-color': '#98f0fa',
-//       'fill-opacity': 0.5,
-//     }
-//   });
+map.on('load', function() {
+   map.addSource('walklayers', {
+     type: 'geojson',
+     data: './data/walking-layers.geojson',
+   });
+
+   map.addLayer({
+    id: 'walkingshapes',
+    type: 'fill',
+    source: 'walklayers',
+    layout: {
+      'visibility': 'visible',
+    },
+    paint: {
+      'fill-color': '#98f0fa',
+      'fill-opacity': 0.5,
+    }
+  });
 
 // add navigation controls to the map
 map.addControl(new mapboxgl.NavigationControl());
