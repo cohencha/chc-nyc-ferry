@@ -21,36 +21,28 @@ map.addControl(
   })
 );
 
-  // add layers for 15-min walking distances
-map.on('load', function() {
-   map.addSource('walklayers', {
-     type: 'geojson',
-     data: './data/walking-layers.geojson',
-   });
-
-   map.addLayer({
-    id: 'walkingshapes',
-    type: 'fill',
-    source: 'walklayers',
-    layout: {
-      'visibility': 'visible',
-    },
-    paint: {
-      'fill-color': '#98f0fa',
-      'fill-opacity': 0.5,
-    }
-  });
-
 // add navigation controls to the map
 map.addControl(new mapboxgl.NavigationControl());
 
     // listen for clicks on the neighborhood flyto buttons
   $('.flyto').on('click', function() {
-    if ($(this).hasClass('flyto-bny')) {
+    if ($(this).hasClass('flyto-nb')) {
       newCenter = [-73.973365, 40.701408]
     }
 
-    if ($(this).hasClass('flyto-soundview')) {
+    if ($(this).hasClass('flyto-sb')) {
+      newCenter = [-73.8492237, 40.8047218]
+    }
+
+    if ($(this).hasClass('flyto-dm')) {
+      newCenter = [-74.006567, 40.7035214]
+    }
+
+    if ($(this).hasClass('flyto-mq')) {
+      newCenter = [-73.973365, 40.701408]
+    }
+
+    if ($(this).hasClass('flyto-tb')) {
       newCenter = [-73.8492237, 40.8047218]
     }
 
@@ -78,15 +70,35 @@ map.addControl(new mapboxgl.NavigationControl());
     .setPopup(
       new mapboxgl.Popup()
         .setHTML(`
-          <p><h5><em>${nycferrystop.properties.stopname}</em></h5></p>
-          <p><h6>Weekend Riders Served: ${nycferrystop.properties.weekendq1}</h6></p>
-          <p><h6>Weekday Riders Served: ${nycferrystop.properties.weekdayq1}</h6></p>
+          <p><h5>Pier Name: <em>${nycferrystop.properties.stopname}</em></h5></p>
+          <p><h6>Time to Pier-11 Hub: <strong>${nycferrystop.properties.minstowallst} Minutes</strong></h6></p>
+          <p><h6>Weekend Riders Served: <strong>${nycferrystop.properties.weekendq1}</strong></h6></p>
+          <p><h6>Weekday Riders Served: <strong>${nycferrystop.properties.weekdayq1}</strong></h6></p>
         `))
     .addTo(map);
   })
 
+  // add layers for 15-min walking distances
+   map.addSource('walklayers', {
+     type: 'geojson',
+     data: './data/walking-layers.geojson',
+   })
+
+   map.addLayer({
+    id: 'walkingshapes',
+    type: 'fill',
+    source: 'walklayers',
+    layout: {
+      'visibility' : 'visible'
+        },
+    paint: {
+      'fill-color': '#98f0fa',
+      'fill-opacity': 0.5,
+    }
+  });
+
   // Buttons to toggle the visibility of the layers
-  $('layers-button').on('click', function() {
+  $('#layers-button').on('click', function() {
       // when this is clicked, open walking layers
     map.setLayoutProperty('walkingshapes', 'visibility', 'visible');
     });
