@@ -27,23 +27,23 @@ map.addControl(new mapboxgl.NavigationControl());
     // listen for clicks on the neighborhood flyto buttons
   $('.flyto').on('click', function() {
     if ($(this).hasClass('flyto-nb')) {
-      newCenter = [-73.973365, 40.701408]
+      newCenter = [-73.9758898, 40.7129913]
     }
 
     if ($(this).hasClass('flyto-sb')) {
-      newCenter = [-73.8492237, 40.8047218]
+      newCenter = [-74.043891, 40.662119]
     }
 
-    if ($(this).hasClass('flyto-dm')) {
-      newCenter = [-74.006567, 40.7035214]
+    if ($(this).hasClass('flyto-nm')) {
+      newCenter = [-73.933865, 40.787768]
     }
 
     if ($(this).hasClass('flyto-mq')) {
-      newCenter = [-73.973365, 40.701408]
+      newCenter = [-73.9529312, 40.7538378]
     }
 
     if ($(this).hasClass('flyto-tb')) {
-      newCenter = [-73.8492237, 40.8047218]
+      newCenter = [-73.8593614, 40.8074066]
     }
 
     if ($(this).hasClass('flyto-pier-11')) {
@@ -52,7 +52,7 @@ map.addControl(new mapboxgl.NavigationControl());
 
     map.flyTo({
       center: newCenter,
-      zoom: 15
+      zoom: 13
     })
   });
 
