@@ -21,6 +21,26 @@ map.addControl(
   })
 );
 
+  // add layers for 15-min walking distances
+// map.on('load', function() {
+//    map.addSource('walklayers', {
+//      type: 'geojson',
+//      data: './data/walking-layers.geojson'
+//    })
+//
+//    map.addLayer({
+//     id: 'walkingshapes',
+//     type: 'fill',
+//     source: 'walklayers',
+//     layout: {
+//       'visibility': 'visible',
+//     },
+//     paint: {
+//       'fill-color': '#98f0fa',
+//       'fill-opacity': 0.5,
+//     }
+//   });
+
 // add navigation controls to the map
 map.addControl(new mapboxgl.NavigationControl());
 
@@ -65,30 +85,10 @@ map.addControl(new mapboxgl.NavigationControl());
     .addTo(map);
   })
 
-  // add layers for 15-min walking distances
-  // map.on('load', function() {
-  //    map.addSource('walklayers', {
-  //      type: 'geojson',
-  //      data: './data/walking-layers.geojson'
-  //    });
-  //
-  //    map.addLayer({
-  //     id: 'walkingshapes',
-  //     type: 'fill',
-  //     source: 'walklayers',
-  //     layout: {
-  //       'visibility': 'none',
-  //     },
-  //     paint: {
-  //       'fill-color': '#98f0fa',
-  //       'fill-opacity': 0.5,
-  //     }
-  //   });
-
   // Buttons to toggle the visibility of the layers
-    $('#layers-button').on('click', function() {
+  $('layers-button').on('click', function() {
       // when this is clicked, open walking layers
-      map.setLayoutProperty('walkingshapes', 'visibility', 'visible');
+    map.setLayoutProperty('walkingshapes', 'visibility', 'visible');
     });
 
 })
