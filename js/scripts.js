@@ -70,7 +70,7 @@ map.addControl(new mapboxgl.NavigationControl());
     .setPopup(
       new mapboxgl.Popup({ offset: 40 })
         .setHTML(`
-          <p>Pier Name: <em>${nycferrystop.properties.stopname}</em></p>
+          <p><h6>Pier Name: <em>${nycferrystop.properties.stopname}</em></h6></p>
           <p>Time to Pier-11 Hub: <strong>${nycferrystop.properties.minstowallst} Minutes</strong></p>
           <p>Weekend Riders Served: <strong>${nycferrystop.properties.weekendq1}</strong></p>
           <p>Weekday Riders Served: <strong>${nycferrystop.properties.weekdayq1}</strong></p>
@@ -89,7 +89,7 @@ map.addControl(new mapboxgl.NavigationControl());
     type: 'fill',
     source: 'walklayers',
     layout: {
-      'visibility' : 'visible'
+      'visibility' : 'none'
         },
     paint: {
       'fill-color': '#98f0fa',
