@@ -13,6 +13,7 @@ var map = new mapboxgl.Map({
   minZoom: 10.25,
 });
 
+
 // add the mapbox geocoder plugin
 map.addControl(
   new MapboxGeocoder({
@@ -79,23 +80,25 @@ map.addControl(new mapboxgl.NavigationControl());
   })
 
   // add layers for 15-min walking distances
-   map.addSource('walklayers', {
-     type: 'geojson',
-     data: './data/walking-layers.geojson',
-   })
+    // map.on('load', function() {
+     map.addSource('walklayers', {
+       type: 'geojson',
+       data: './data/walking-layers.geojson',
+     });
 
-   map.addLayer({
-    id: 'walkingshapes',
-    type: 'fill',
-    source: 'walklayers',
-    layout: {
-      'visibility' : 'none'
-        },
-    paint: {
-      'fill-color': '#98f0fa',
-      'fill-opacity': 0.5,
-    }
-  });
+     map.addLayer({
+      id: 'walkingshapes',
+      type: 'fill',
+      source: 'walklayers',
+      layout: {
+        'visibility' : 'none'
+          },
+      paint: {
+        'fill-color': '#98f0fa',
+        'fill-outline-color': '#ccc',
+        'fill-opacity': 0.5,
+      }
+      });
 
   // Buttons to toggle the visibility of the layers
   $('#layers-button').on('click', function() {
