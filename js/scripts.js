@@ -64,16 +64,16 @@ map.addControl(new mapboxgl.NavigationControl());
 // markers for ferry piers
   nycferrystops.features.forEach(function(nycferrystop) {
     var mapMarker = new mapboxgl.Marker({
-      color: '#2596be'
+      color: '#2596be',
     })
     .setLngLat(nycferrystop.geometry.coordinates)
     .setPopup(
-      new mapboxgl.Popup()
+      new mapboxgl.Popup({ offset: 40 })
         .setHTML(`
-          <p><h5>Pier Name: <em>${nycferrystop.properties.stopname}</em></h5></p>
-          <p><h6>Time to Pier-11 Hub: <strong>${nycferrystop.properties.minstowallst} Minutes</strong></h6></p>
-          <p><h6>Weekend Riders Served: <strong>${nycferrystop.properties.weekendq1}</strong></h6></p>
-          <p><h6>Weekday Riders Served: <strong>${nycferrystop.properties.weekdayq1}</strong></h6></p>
+          <p>Pier Name: <em>${nycferrystop.properties.stopname}</em></p>
+          <p>Time to Pier-11 Hub: <strong>${nycferrystop.properties.minstowallst} Minutes</strong></p>
+          <p>Weekend Riders Served: <strong>${nycferrystop.properties.weekendq1}</strong></p>
+          <p>Weekday Riders Served: <strong>${nycferrystop.properties.weekdayq1}</strong></p>
         `))
     .addTo(map);
   })

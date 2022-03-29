@@ -18,10 +18,10 @@ html, body {
 }
 
 .sidebar {
-  width: 400px;
+  width: 490px;
   height: 100%;
   padding: 25px 15px;
-  background-color: #074C57;
+  background-color: #1E4363;
   color: #FFF;
   text-align: left;
   border-right: 1px solid #538289;
