@@ -84,8 +84,7 @@ map.addControl(new mapboxgl.NavigationControl());
      map.addSource('walklayers', {
        type: 'geojson',
        data: './data/walking-layers.geojson',
-     })
-   });
+     });
 
      map.addLayer({
       id: 'walkingshapes',
@@ -96,7 +95,8 @@ map.addControl(new mapboxgl.NavigationControl());
         'fill-outline-color': '#ccc',
         'fill-opacity': 0.5,
       }
-      });
+      })
+   });
 
   // Buttons to toggle the visibility of the layers
   $('#layers-button').on('click', function() {
