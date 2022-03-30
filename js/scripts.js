@@ -82,28 +82,30 @@ map.addControl(new mapboxgl.NavigationControl());
   // add layers for 15-min walking distances
     // map.on('load', function() {
      map.addSource('walklayers', {
-       type: 'geojson',
-       data: './data/walking-layers.geojson',
-     });
-
-     map.addLayer({
-      id: 'walkingshapes',
-      type: 'fill',
-      source: 'walklayers',
-      layout: {
-        'visibility' : 'none'
-          },
-      paint: {
-        'fill-color': '#98f0fa',
-        'fill-outline-color': '#ccc',
-        'fill-opacity': 0.5,
-      }
-      });
+     // map.addSource('walklayers', {
+     //   type: 'geojson',
+     //   data: 'walkingisocrones',
+     // });
+     //
+     // map.addLayer({
+     //  id: 'walkingshapes',
+     //  type: 'fill',
+     //  source: 'walklayers',
+     //  paint: {
+     //    'fill-color': '#98f0fa',
+     //    'fill-outline-color': '#ccc',
+     //    'fill-opacity': 0.5,
+     //  }
+     //  });
 
   // Buttons to toggle the visibility of the layers
   $('#layers-button').on('click', function() {
-      // when this is clicked, open walking layers
-    map.setLayoutProperty('walkingshapes', 'visibility', 'visible');
-    });
+    var visibility = map.getLayoutProperty('walkingshapes', 'visibility')
+    if (visibility === 'none') {
+      map.setLayoutProperty('walkingshapes', 'visibility', 'visible');
+    } else {
+      map.setLayoutProperty('walkingshapes', 'visibility', 'none');
+    }
+  })
 
 })
