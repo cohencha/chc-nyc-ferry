@@ -24,7 +24,7 @@
   <body>
     <div id='parent-container'>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#5EC2DF;border-bottom: 1px solid #5e5e5e;">
+      <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#1F618D;border-bottom: 1px solid #5e5e5e;">
         <!-- Container wrapper -->
         <div class="container-fluid">
 
@@ -66,35 +66,35 @@
       <div class='content-area'>
         <div class='sidebar'>
           <div class='sidebar-top'>
-            <h3>Where can you go within 15-Minutes from a NYC Ferry Stop?</h3>
-            <p>This map will show you how far you can walk in 15-minutes and some information on ridership information regarding each <a href='https://www.ferry.nyc/'style="color:#A8AEAE">NYC Ferry</a> stop.</p>
-            <p> Click on Markers to show information for each Pier, and information the latest ridership counts (Janurary to March 2022).</p>
-            <h6>Zoom to Location</h6>
-            <div class="btn-group nabe-buttons" role="group" aria-label="Basic outlined example">
-              <button type="button" class="btn btn-outline-primary flyto flyto-nb">Northern Brooklyn</button>
-              <button type="button" class="btn btn-outline-primary flyto flyto-sb">Southern Brooklyn</button>
-              <button type="button" class="btn btn-outline-primary flyto flyto-pier-11">Downtown Manhattan</button>
+            <h2>Where can you go in 15-Minutes from a NYC Ferry Stop?</h2>
+            <p>This map will show you how far you can walk in 15-minutes and information on ridership information regarding each <a href='https://www.ferry.nyc/'>NYC Ferry</a> stop.</p>
+            <p> Click on Markers to show details for each Pier, and information the latest ridership counts (Janurary to March 2022).</p>
+            <h6>Click Below to Zoom to Location</h6>
+            <div class="btn-group btn btn-nabe-buttons" role="group" aria-label="Basic outlined example">
+              <button type="button" class="btn btn-outline-primary "style=background-color:#F4D03F;" flyto flyto-nb">Northern Brooklyn</button>
+              <button type="button" class="btn btn-outline-primary "style=background-color:#F4D03F;" flyto flyto-sb">Southern Brooklyn</button>
+              <button type="button" class="btn btn-outline-primary "style=background-color:#F4D03F;" flyto flyto-pier-11">Downtown Manhattan</button>
             </div>
             <p></p>
-            <div class="btn-group nabe-buttons" role="group" aria-label="Basic outlined example">
-              <button type="button" class="btn btn-outline-primary flyto flyto-nm">Northern Manhattan</button>
-              <button type="button" class="btn btn-outline-primary flyto flyto-mq">Midtown & Queens</button>
-              <button type="button" class="btn btn-outline-primary flyto flyto-tb"> the Bronx</button>
+            <div class="btn-group btn btn-nabe-buttons" role="group" aria-label="Basic outlined example">
+              <button type="button" class="btn btn-outline-primary "style=background-color:#F4D03F;" flyto flyto-nm">Northern Manhattan</button>
+              <button type="button" class="btn btn-outline-primary "style=background-color:#F4D03F;"flyto flyto-mq">Midtown & Queens</button>
+              <button type="button" class="btn btn-outline-primary "style=background-color:#F4D03F;"flyto flyto-tb"> the Bronx</button>
             </div>
 
-            <div class='reset'><small>Back to City View</small></div>
+            <div class='reset'><small><u>Reset to City View</u></small></div>
 
-            <button type="button" id= 'layers-button' class="btn btn-secondary btn-lg btn-block">Toggle Walking Layers</button>
+            <button type="button" id= 'layers-button' class="btn btn-primary btn-lg btn-blockstyle">Toggle Walking Layers</button>
           </div>
           <div class='sidebar-bottom'>
-            <small>Data Sources: <a href='https://www.ferry.nyc/reports-statistics/'style="color:#A8AEAE">NYC Ferry: Q1 2022</a></small>
+            <small>Data Sources: <a href='https://www.ferry.nyc/reports-statistics/'>NYC Ferry: Q1 2022</a></small>
           </div>
         </div>
 
         <div id='mapContainer'>
         <!-- this is where mapboxGL will insert the map -->
         </div>
-        
+
       </div>
 
       <!-- About Modal -->
@@ -107,7 +107,7 @@
             </div>
             <div class="modal-body">
               <p>This web map is designed to continue the discussion of the concept of the <a href='https://www.cnu.org/publicsquare/2021/02/08/defining-15-minute-city'>15-Minute City</a> and the current operations of the <a href='https://www.ferry.nyc/'>NYC Ferry</a>. Last year, I <a href='https://chc9813.medium.com/the-15-minute-city-in-a-new-york-minute-e3d7ea0a0bda'>wrote and mapped out</a> several neighborhoods across New York City and if they could become viable 15-minute cities and found mixed results.</p>
-              <p>This map allows us to see how far one can walk in 15 minutes from any NYC Ferry Stop (note: the Coney Island Ferry is not included, as it will not be in operation until the Summer of 2022) using the TravelTime application. The NYC Ferry does allow residents and tourists alike with new transit options.</p>
+              <p>This map allows us to see how far one can walk in 15 minutes from any NYC Ferry Stop (note: the Coney Island Ferry is not included, as it will not be in operation until the Summer of 2022) using the TravelTime application. Anywhere in the orange shape (also called an isocrone) is within walking distance. The NYC Ferry does allow residents and tourists alike with new transit options.</p>
               <p>However, it seems that rider counts have been low in comparison to the NYC MTA system. This map will allow you to see average weekday and weekend rider counts from January to March of 2022 by stop. You can also enter in an address to see if you are within a 15-minute radius of a ferry stop.  </p>
               <p>A special thanks to <a href ='https://chriswhong.com/'>Chris Whong</a>, for his guidance and wisdom on this project.</p>
             </div>
