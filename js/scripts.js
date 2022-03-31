@@ -71,10 +71,10 @@ map.addControl(new mapboxgl.NavigationControl());
     .setPopup(
       new mapboxgl.Popup({ offset: 40 })
         .setHTML(`
-          <p><h6>Pier Name: <em>${nycferrystop.properties.stopname}</em></h6></p>
-          <p>Time to Pier-11 Hub: <strong>${nycferrystop.properties.minstowallst} Minutes</strong></p>
-          <p>Weekend Riders Served: <strong>${nycferrystop.properties.weekendq1}</strong></p>
-          <p>Weekday Riders Served: <strong>${nycferrystop.properties.weekdayq1}</strong></p>
+          <p><h6>Pier Name: <em>${nycferrystop.properties.stopname}</em></h6><p>
+          <p><u>Minutes to Pier-11 Hub</u>: <strong>${nycferrystop.properties.minstowallst}</strong><p>
+          <p><u>Weekend Riders Served</u>: <strong>${nycferrystop.properties.weekendq1}</strong><p>
+          <p><u>Weekday Riders Served</u>: <strong>${nycferrystop.properties.weekdayq1}</strong></p>
         `))
     .addTo(map);
   })
@@ -91,9 +91,9 @@ map.addControl(new mapboxgl.NavigationControl());
       type: 'fill',
       source: 'walklayers',
       paint: {
-        'fill-color': '#98f0fa',
-        'fill-outline-color': '#ccc',
-        'fill-opacity': 0.5,
+        'fill-color': '#D68910',
+        'fill-outline-color': '#000000',
+        'fill-opacity': 0.6,
       }
       })
    });
