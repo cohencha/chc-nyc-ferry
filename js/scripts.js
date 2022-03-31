@@ -1,3 +1,5 @@
+// Main Section of Website
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiY29oZW5jaGEiLCJhIjoiY2t6dW12Zm1mMDhnbzJvbXl1cmYxY3BpNyJ9.qTcZ7QT6P96dIYJjSniWVw'
 
 $.getJSON('./data/ferry-stops-updates.geojson', function(nycferrystops) {
