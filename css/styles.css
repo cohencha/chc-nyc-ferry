@@ -1,3 +1,5 @@
+/* Overall Content */
+
 html, body {
   margin: 0;
   height: 100%;
@@ -51,6 +53,8 @@ html, body {
   backgroundColor: #ccc;
   flex-grow: 1
 }
+
+/* Reset to City View */
 
 .reset {
   margin-bottom: 25px;
